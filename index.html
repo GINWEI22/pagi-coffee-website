@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pagi Coffee – Fresh coffee &amp; toast, open from 7am</title>
+<meta name="description" content="Pagi Coffee is a neighbourhood café serving fresh coffee, kaya toast and pastries. See the menu, opening hours and how to find us.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--green:#17463C;--brown:#3B2A20;--yellow:#F2B632;--paper:#F3F6F4;--line:#D5DDD9;--ink:#1d1d1b;
+--head:"Bricolage Grotesque",Georgia,serif;--body:"Instrument Sans",system-ui,Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:var(--green);color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+nav strong{font-family:var(--head);font-size:1.3rem}
+nav a{text-decoration:none;margin-left:18px;font-size:.95rem}
+.hero{padding:56px 0 72px}
+.hero h1{font-family:var(--head);font-weight:800;font-size:clamp(3rem,13vw,7.5rem);line-height:.95;letter-spacing:-.03em;max-width:9ch}
+.hero p{max-width:38ch;margin:24px 0 32px;font-size:1.15rem;color:#dbe8e3}
+.btn{display:inline-block;padding:14px 24px;border-radius:999px;font-weight:600;text-decoration:none;background:var(--yellow);color:var(--brown);margin:0 10px 10px 0}
+.btn.alt{background:transparent;color:#fff;border:2px solid #fff}
+section{padding:64px 0}
+h2{font-family:var(--head);font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:24px;color:var(--green)}
+.menu{display:grid;gap:0 48px;grid-template-columns:1fr}
+.menu div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.menu span:first-child small{display:block;color:#5b6660;font-size:.88rem}
+.menu b{font-weight:600;white-space:nowrap}
+.info{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cols{display:grid;gap:32px;grid-template-columns:1fr}
+.cols h3{font-family:var(--head);margin-bottom:8px;color:var(--brown)}
+table{border-collapse:collapse;width:100%}
+td{padding:6px 0;border-bottom:1px solid var(--line)}
+td:last-child{text-align:right}
+iframe{width:100%;height:320px;border:0;border-radius:12px;margin-top:8px}
+footer{background:var(--brown);color:#e9ddd4;padding:28px 0;font-size:.9rem}
+.wa{position:fixed;right:16px;bottom:72px;background:#25D366;color:#073b1a;font-weight:600;padding:14px 20px;border-radius:999px;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+@media(min-width:760px){.menu{grid-template-columns:1fr 1fr}.cols{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <nav><strong>Pagi Coffee</strong><span><a href="#menu">Menu</a><a href="#visit">Visit us</a></span></nav>
+  <div class="hero">
+   <h1>Kopi, pagi-pagi.</h1>
+   <p>Fresh coffee, kaya toast and warm pastries. We open at 7am, before your day gets busy.</p>
+   <a class="btn" href="https://wa.me/60183372365?text=Hi%20Pagi%20Coffee%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener">Order on WhatsApp</a>
+   <a class="btn alt" href="#visit">Find the café</a>
+  </div>
+ </div>
+</header>
+
+<main>
+<section id="menu">
+ <div class="wrap">
+  <h2>Menu</h2>
+  <div class="menu">
+   <div><span>Kopi O<small>Strong black coffee</small></span><b>RM 4.50</b></div>
+   <div><span>Kopi C<small>With evaporated milk</small></span><b>RM 5.50</b></div>
+   <div><span>Flat White<small>Double shot, steamed milk</small></span><b>RM 12</b></div>
+   <div><span>Iced Latte<small>Oat milk available +RM 2</small></span><b>RM 13</b></div>
+   <div><span>Kaya Toast Set<small>Two eggs and a drink</small></span><b>RM 11</b></div>
+   <div><span>Butter Croissant<small>Baked every morning</small></span><b>RM 8</b></div>
+   <div><span>Banana Loaf<small>Slice, served warm</small></span><b>RM 7</b></div>
+   <div><span>Chicken Sandwich<small>Grilled, with salad</small></span><b>RM 15</b></div>
+  </div>
+ </div>
+</section>
+
+<section id="visit" class="info">
+ <div class="wrap cols">
+  <div>
+   <h2>Visit us</h2>
+   <h3>Opening hours</h3>
+   <table>
+    <tr><td>Mon – Fri</td><td>7:00am – 6:00pm</td></tr>
+    <tr><td>Saturday</td><td>8:00am – 8:00pm</td></tr>
+    <tr><td>Sunday</td><td>8:00am – 4:00pm</td></tr>
+   </table>
+   <h3 style="margin-top:20px">Contact</h3>
+   <p>12, Jalan Contoh, 50000 Kuala Lumpur<br>
+   <a href="tel:+60183372365">+60 18-337 2365</a><br>
+   <a href="mailto:hello@pagicoffee.example">hello@pagicoffee.example</a></p>
+  </div>
+  <div>
+   <h3>Find us</h3>
+   <iframe title="Map showing Pagi Coffee location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps?q=Kuala+Lumpur&amp;output=embed"></iframe>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Pagi Coffee. Sample website built as a portfolio demo.</div></footer>
+<a class="wa" href="https://wa.me/60183372365" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp us</a>
+</body>
+</html>
